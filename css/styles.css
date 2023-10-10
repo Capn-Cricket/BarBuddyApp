@@ -17,12 +17,13 @@
   }
   
   /*center text*/
-  h1, h2, h3, p, .input{
+  h1, h2, h3, p, li, .input{
     text-align: center;
+    display: block;
     /* border: 2px solid black; */
   }
   
-  p {
+  .instructions {
     padding: 0 9em 9em 9em;
   }
   
@@ -33,3 +34,4 @@
   body {
     background: #f2f2f2;
   }
+  
